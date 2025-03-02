@@ -1,0 +1,10 @@
+.layout-wrapper {
+}
+
+.layout-main {
+  width: 100%;
+  display: flex;
+
+  border: 1px solid green;
+
+}

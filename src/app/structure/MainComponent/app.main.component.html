@@ -1,0 +1,25 @@
+
+<div class="layout-wrapper">
+
+  <app-topbar></app-topbar>
+
+  <div style="display: flex">
+
+    <app-menu></app-menu>
+
+    <div class="layout-main" [ngStyle]="{'margin-right': contentWidth}">
+
+      <app-breadcrumb></app-breadcrumb>
+
+      <div class="layout-content">
+        <router-outlet></router-outlet>
+      </div>
+
+      <app-footer></app-footer>
+
+    </div>
+
+  </div>
+
+
+</div>

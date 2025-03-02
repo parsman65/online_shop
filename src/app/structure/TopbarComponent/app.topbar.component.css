@@ -1,0 +1,6 @@
+.layout-topbar {
+  display: flex;
+  align-items: center;
+  background-color: #3f51b5;
+  height: 64px;
+}

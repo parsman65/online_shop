@@ -1,5 +1,5 @@
 .layout-sidebar {
   border: 1px solid red;
-  width: 240px;
   height: 100%;
+  transition: width .5s !important;
 }

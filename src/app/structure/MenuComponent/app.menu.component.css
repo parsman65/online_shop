@@ -1,5 +1,17 @@
 .layout-sidebar {
   border: 1px solid red;
-  height: 100%;
-  transition: width .5s !important;
+  height: 100vh;
+  padding: 15px;
+}
+
+:host ::ng-deep .p-menu {
+  width: 100% !important;
+}
+
+:host ::ng-deep .p-menu .p-submenu-header {
+  line-height: 30px;
+}
+
+:host ::ng-deep .p-menu .p-menuitem-link {
+  margin: 20px 0 !important;
 }

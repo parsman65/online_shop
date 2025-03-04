@@ -1,3 +1,5 @@
-<div class="layout-sidebar" [ngStyle]="{'width': menuWidth}">
+<div class="layout-sidebar" [ngStyle]="{'width': menuWidth, 'display': getDisplay()}">
+
+  <p-menu [model]="items"></p-menu>
 
 </div>

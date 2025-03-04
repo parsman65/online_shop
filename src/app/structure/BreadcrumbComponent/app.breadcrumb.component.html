@@ -1,1 +1,11 @@
-<p>app.breadcrumb works!</p>
+<div style="border: 1px solid orangered; height: 10vh">
+  <p-breadcrumb class="max-w-full" [model]="items" [home]="home">
+    <ng-template pTemplate="item" let-item>
+      <a class="cursor-pointer" [routerLink]="item.url">
+        <span>{{item.label}}</span>
+      </a>
+    </ng-template>
+    <ng-template pTemplate="separator"> / </ng-template>
+  </p-breadcrumb>
+</div>
+
